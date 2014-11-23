@@ -1,10 +1,10 @@
 
 body {
-    border-top: 4px solid #518d8a;
+    border-top: 4px solid #007897;
     font-family: 'PT Sans', Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: #555;
+    color: #283043;
     text-align: left;
 }
 
@@ -37,7 +37,7 @@ a:hover { text-decoration: none; }
     -webkit-transition: all .2s;
     -ms-transition: all .2s;
 }
-.logo a:hover { color: #518d8a; }
+.logo a:hover { color: #007897; }
 
 .tel-skype p {
     margin-top: 18px;
@@ -52,8 +52,8 @@ a:hover { text-decoration: none; }
 
 .tel-skype .pipe { margin: 0 7px 0 5px; color: #ccc; }
 
-::-moz-selection { background: #518d8a; color: #fff; text-shadow: none; }
-::selection { background: #518d8a; color: #fff; text-shadow: none; }
+::-moz-selection { background: #007897; color: #fff; text-shadow: none; }
+::selection { background: #007897; color: #fff; text-shadow: none; }
 
 
 /***** Product Showcase / Coming Soon *****/
@@ -156,7 +156,7 @@ color: #283043;
 .product-description form button {
     margin-top: 10px;
     padding: 12px 25px;
-    background: #518d8a;
+    background: #007897;
     border: 0;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -220,10 +220,10 @@ color: #283043;
 .about-us_2 h3 {
     margin: 0 40px 30px 50px;
     padding: 0 0 10px 0;
-    border-bottom: 1px dotted #aaa;
+    border-bottom: 1px dotted #283043;
     font-size: 36px;
     font-weight: 400;
-   
+	color: #007897
 }
 
 .about-us_2 h5 {
@@ -293,7 +293,7 @@ color: #283043;
 footer {
     margin-top: 60px;
     padding: 30px 0;
-    background: #45aeea;
+    background: #e3e9dc;
     -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
     -webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
     box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
@@ -305,14 +305,14 @@ footer h3 {
     padding-bottom: 10px;
     font-size: 28px;
     font-weight: 400;
-    color: #ddd;
+   color: #007897; 
     text-shadow: 1px 1px 1px rgba(0,0,0,.3);
 }
 
 footer p { line-height: 30px; }
 
 footer a {
-    color: #ddd;
+    color: #283043;
     -o-transition: all .2s;
     -moz-transition: all .2s;
     -webkit-transition: all .2s;
@@ -391,7 +391,7 @@ footer a:hover { color: #aaa; }
 .contact-us form button {
     margin: 2px 0 0 191px;
     padding: 7px 15px;
-    background: #518d8a;
+    background: #007897;
     border: 0;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
