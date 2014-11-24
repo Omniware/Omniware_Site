@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /assets/prettyPhoto
+Disallow: /assets/bootstrap
+Disallow: /assets/bootstrap
+Disallow: /assets/font-awesome
+Disallow: /assets/img/clients
+Disallow: /assets/img/social-icons
+Disallow: /assets/img/testimonials
+Disallow: /assets/img/backgrounds
+Disallow: /assets/img/social-icons
