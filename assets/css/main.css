@@ -72,7 +72,7 @@ a:hover { text-decoration: none; }
     box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
 }
 
-.about-us_2 p,h3,h5{
+.about-us-2 p,h3,h5{
 color: #283043;
 
 }
@@ -215,11 +215,11 @@ color: #283043;
 
 /***** Content *****/
 
-.about-us_2 {
+.about-us-2 {
     margin-top: 40px;
 }
 
-.about-us_2 h3 {
+.about-us-2 h3 {
     margin: 0 40px 30px 50px;
     padding: 0 0 10px 0;
     border-bottom: 1px dotted #283043;
@@ -228,7 +228,7 @@ color: #283043;
 	color: #007897
 }
 
-.about-us_2 h5 {
+.about-us-2 h5 {
     margin-left: 50px;
     margin-right: 40px;
     font-size: 20px;
@@ -236,7 +236,7 @@ color: #283043;
     line-height: 32px;
 }
 
-.about-us_2 p {
+.about-us-2 p {
     margin-left: 50px;
     margin-right: 40px;
     line-height: 30px;
@@ -423,7 +423,7 @@ footer a:hover { color: #aaa; }
 .copyright {
     margin-top: 20px;
     text-align: center;
- border-top: 1px dotted #aaa;
+ border-top: 1px dotted #283043;
 
 }
 
@@ -486,9 +486,9 @@ footer a:hover { color: #aaa; }
 
     .timer span { font-size: 40px; }
 
-    .about-us_2 h3, .about-us_2 h5 { margin-left: 50px; margin-right: 50px; }
+    .about-us-2 h3, .about-us-2 h5 { margin-left: 50px; margin-right: 50px; }
 
-    .about-us_2 p { margin-left: 50px; margin-right: 50px; }
+    .about-us-2 p { margin-left: 50px; margin-right: 50px; }
 
     .using-this { margin-top: 40px; }
 
