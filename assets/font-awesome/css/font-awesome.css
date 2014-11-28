@@ -185,6 +185,7 @@ ul.icons li [class*=" icon-"] {
 }
 .pull-left {
   float: left;
+  padding-left: 200px;
 }
 [class^="icon-"].pull-left,
 [class*=" icon-"].pull-left {
