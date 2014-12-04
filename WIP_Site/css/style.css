@@ -28,10 +28,11 @@ h1,h2,h3,h4,h5,h6,p,span{
 	margin-top: -0.4em;
 }
 .header {
-	padding: 4em 0em 2em;
+	padding: 1em 0em 1em;
 }
 .header-right{
 	float:right;
+	padding: 24px 0em 1em;
 }
 .navigation{
 	float:left;
@@ -389,9 +390,9 @@ a.dones:hover{
 	font-family: 'Lato', sans-serif;
 	margin: 1em 0em;
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 16px;
 	margin-left: 0em;
-	color: #738C96;
+	color: #485456;
 	width: 102%;
 	line-height: 22px;
 }
@@ -539,6 +540,7 @@ overflow: hidden;
 .get{
 	background: url(../images/last-banner.jpg) no-repeat 0px 0px;
 	background-size: cover;
+background-attachment: fixed;
 }
 .recent {
 	margin: 2em 0em 3em;
@@ -767,8 +769,8 @@ a:hover {
 	color:#15A4FA;
 }
 .footer h4{
-	font-family: 'Lato', sans-serif;
-	color: #738C96;
+	font-family: 'Open Sans','Lato', sans-serif;
+	color: #485456;
 }
 .Rights{
 	display: inline-block;
