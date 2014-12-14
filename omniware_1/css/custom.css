@@ -350,7 +350,6 @@ h1,h2,h3,h4,h5,h6,p,span{
 	font-family: 'Open Sans','Bree Serif', serif;
 	background: url(../images/second-banner.jpg) no-repeat 0px 0px;
 	background-size: cover;
-	min-height: 920px;
 }
 .offerings h{
 	text-align:center;
