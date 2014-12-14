@@ -83,7 +83,6 @@ Waypoints
 
 
 .da-slide{
-	position: absolute;
 	width: 100%;
 	height: 100%;
 	top: 0px;
@@ -107,6 +106,7 @@ Waypoints
 	position: absolute;
 	opacity: 0;
 	left: 110%;
+	padding-left: 50px;
 }
 .da-slider-fb .da-slide h2,
 .da-slider-fb .da-slide p,
@@ -118,29 +118,31 @@ Waypoints
 	left: 60%;
 	opacity: 1;
 }
-.da-slide h2{
+.da-slide h2,
+.da-slide p{
+	padding-left: 50px;
 	color: #fff;
+	font-family: 'Economica', Arial, sans-serif;
+}
+.da-slide h2{	
 	font-size: 66px;
 	width: 50%;
 	top: 60px;
 	white-space: nowrap;
 	z-index: 10;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-	font-family: 'Economica', Arial, sans-serif;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);	
 	font-weight: 700;
+	
 }
 .da-slide p{
 	width: 45%;
 	top: 155px;
-	color: #fff;
-	font-size: 18px;
+	font-size: 22px;
 	line-height: 26px;
 	height: 80px;
 	overflow: hidden;
-	font-style: italic;
-	font-family: 'Economica', Arial, sans-serif;
 	font-weight: 400;
-	font-style: italic;
+	
 }
 .da-slide .da-img{
 	text-align: center;
@@ -149,6 +151,7 @@ Waypoints
 	height: 256px;
 	line-height: 320px;
 	left: 110%; /*60%*/
+	padding-left: 50px;
 }
 .da-slide .da-link{
 	top: 270px; /*depends on p height*/
@@ -157,12 +160,13 @@ Waypoints
 	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 	border: 8px solid rgba(255,255,255,0.8);
-	padding: 2px 20px 0px;
+	padding: 2px 20px 0px ;
 	font-size: 18px;
 	line-height: 30px;
 	width: 150px;
 	text-align: center;
 	background: rgba(255,255,255,0.2);
+	
 }
 .da-slide .da-link:hover{
 	background: rgba(255,255,255,0.3);
@@ -183,7 +187,7 @@ Waypoints
 	width: 12px;
 	height: 12px;
 	border-radius: 50%;
-	background: #e4b42d;
+	background: #005593;
 	margin: 3px;
 	cursor: pointer;
 	box-shadow: 
