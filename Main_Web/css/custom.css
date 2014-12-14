@@ -316,6 +316,7 @@ h1,h2,h3,h4,h5,h6,p,span{
 .offerings{
 	font-family: 'Open Sans','Bree Serif', serif;
 	background: url(../images/second-banner.jpg) no-repeat 0px 0px;
+	background-attachment: fixed;
 	background-size: cover;
 	min-height: 920px;
 }
@@ -554,7 +555,7 @@ ul.product_title {
 }
 ul.product_title li.s_head {
 	float: left;
-	width: 50%;
+	width: 100%;
 }
 ul.product_title li.s_head h3 {
 	font-family: 'Bree Serif', serif;

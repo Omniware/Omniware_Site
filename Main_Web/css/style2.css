@@ -73,6 +73,7 @@ Waypoints
 	margin: 30px auto;
 	overflow: hidden;
 	background: transparent url(../images/first-banner.png);
+	background-attachment: fixed;
 	padding-top: 50px
 	-webkit-transition: background-position 1s ease-out 0.3s;
 	-moz-transition: background-position 1s ease-out 0.3s;
@@ -762,4 +763,18 @@ Waypoints
 	0%{ left: 60%;  opacity: 1; }
 	70%{ left: 30%;  opacity: 0; }
 	100%{ left: -50%; opacity: 0; }
+}
+
+.footer {
+	padding: 2em 0em 3em;
+}
+
+.footer h4{
+	font-family: 'Open Sans','Lato', sans-serif;
+	color: #485456;
+}
+.Reserved {
+	text-align: center;
+	top: 1.5em;
+	right: 14em;
 }
