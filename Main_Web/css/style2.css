@@ -64,6 +64,24 @@ Waypoints
 	-ms-transition: background-position 1s ease-out 0.3s;
 	transition: background-position 1s ease-out 0.3s;
 }
+
+.da-slider2{
+	width: 100%;
+	
+	height: 500px;
+	position: relative;
+	margin: 30px auto;
+	overflow: hidden;
+	background: transparent url(../images/first-banner.png);
+	padding-top: 50px
+	-webkit-transition: background-position 1s ease-out 0.3s;
+	-moz-transition: background-position 1s ease-out 0.3s;
+	-o-transition: background-position 1s ease-out 0.3s;
+	-ms-transition: background-position 1s ease-out 0.3s;
+	transition: background-position 1s ease-out 0.3s;
+}
+
+
 .da-slide{
 	position: absolute;
 	width: 100%;
@@ -114,7 +132,7 @@ Waypoints
 .da-slide p{
 	width: 45%;
 	top: 155px;
-	color: #916c05;
+	color: #fff;
 	font-size: 18px;
 	line-height: 26px;
 	height: 80px;

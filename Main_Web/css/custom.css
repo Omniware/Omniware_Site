@@ -287,6 +287,7 @@ h1,h2,h3,h4,h5,h6,p,span{
 	font-size: 38px;
 	font-weight: 300;
 	color: #668591;
+	text-align:center;
 }
 .welcome p{
 	font-family: 'Open Sans','Lato', sans-serif;
@@ -296,8 +297,7 @@ h1,h2,h3,h4,h5,h6,p,span{
 	color: #283043;
 	line-height: 34px;
 	word-spacing: 4px;
-	width: 76%;
-	margin: 1em 0em 1em 1em;
+	margin: 1em 0em 2em 2em;
 }
 .welcome h3{
 	font-family: 'Open Sans','Lato', sans-serif;
