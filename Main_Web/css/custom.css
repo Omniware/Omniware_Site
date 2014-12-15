@@ -283,14 +283,14 @@ h1,h2,h3,h4,h5,h6,p,span{
 	padding-bottom: 5%;
 }
 .welcome h2{
-	font-family: 'Bree Serif', serif;
+	font-family:  'Enriqueta','Bree Serif', serif;
 	font-size: 38px;
 	font-weight: 300;
 	color: #668591;
 	text-align:center;
 }
 .welcome p{
-	font-family: 'Open Sans','Lato', sans-serif;
+	font-family: 'Raleway','Open Sans','Lato', sans-serif;
 	font-size: 17px;
 	font-weight: 300;
 	text-align:left;
@@ -314,18 +314,18 @@ h1,h2,h3,h4,h5,h6,p,span{
 	padding: 0em 0em 2em;
 }
 .offerings{
-	font-family: 'Open Sans','Bree Serif', serif;
+	font-family: 'Enriqueta','Open Sans','Bree Serif', serif;
 	background: url(../images/second-banner.jpg) no-repeat 0px 0px;
 	background-attachment: fixed;
 	background-size: cover;
-	min-height: 920px;
+	min-height: 460px;
 }
 .offerings h{
 	text-align:center;
 	width:33.333%;
 }
 .offerings h3{
-	font-family: 'Open Sans','Bree Serif', serif;
+	font-family: 'Enriqueta','Open Sans','Bree Serif', serif;
 	font-weight: 300;
 	color: #fff;
 	text-align: center;
@@ -350,7 +350,7 @@ h1,h2,h3,h4,h5,h6,p,span{
 	width: 100%;
 }
 .grid p{
-	font-family: 'Open Sans','Lato', sans-serif;
+	font-family:'Raleway', 'Open Sans','Lato', sans-serif;
 	width: 71%;
 	margin: 0 auto;
 	padding: 1em 1em;
@@ -439,7 +439,7 @@ span.icon3 {
 	width: 301px;
 }
 .top-p1 h3{
-	font-family: 'Bree Serif', serif;
+	font-family: 'Enriqueta','Bree Serif', serif;
 	font-weight: 300;
 	color: #668591;
 	text-align: center;
@@ -532,7 +532,7 @@ a.dones:hover{
 	line-height: 20px;
 }
 .Proin p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Raleway','Lato', sans-serif;
 	margin: 1em 0em;
 	font-weight: 300;
 	font-size: 16px;
@@ -558,7 +558,7 @@ ul.product_title li.s_head {
 	width: 100%;
 }
 ul.product_title li.s_head h3 {
-	font-family: 'Bree Serif', serif;
+	font-family: 'Enriqueta','Bree Serif', serif;
 	text-transform: uppercase;
 	font-size: 24.4px;
 	font-weight: 300;
@@ -692,7 +692,7 @@ background-attachment: fixed;
 }
 .touch p {
 	color: #fff;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Raleway','Lato', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 20px;
@@ -700,14 +700,14 @@ background-attachment: fixed;
 	margin-left: 11em;
 }
 .touch h2{
-	font-family: 'Bree Serif', serif;
+	font-family: 'Enriqueta','Bree Serif', serif;
 	font-weight: 200;
 	color: #fff;
 	font-size: 36px;
 	padding: 0.5em 0em;
 }
 .touch h5{
-	font-family: 'Bree Serif', serif;
+	font-family: 'Enriqueta','Bree Serif', serif;
 	font-size: 37px;
 	font-weight: 700;
 	color: #fff;
@@ -798,18 +798,18 @@ background-attachment: fixed;
 	padding: 35px 0px;
 }
 .contant-grid h3{
-	font-family: 'Bree Serif', serif;
+	font-family: 'Enriqueta','Bree Serif', serif;
 	font-weight: 400;
 	color: #fff;
 	font-size: 26px;
 	text-align: left;
 }
-.contact-form h4{
-	font-family: 'Bree Serif', serif;
+.contact-form h3{
+	font-family: 'Enriqueta', 'Bree Serif', serif;
 	padding: 1.1em 0em;
 	text-align: left;
 	font-weight: 400;
-	font-size: 25px;
+	font-size: 26px;
 	color: #fff;
 	margin: 0;
 }
@@ -829,7 +829,7 @@ background-attachment: fixed;
 	color: #fff;
 }
 .contact-form input[type="text"],.contact-form textarea{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Raleway', 'Lato', sans-serif;
 	padding: 0.6em;
 	width: 112%;
 	background: none;
@@ -842,7 +842,7 @@ background-attachment: fixed;
 	font-style: italic;
 }
 .contact-form textarea{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Raleway', 'Lato', sans-serif;
 	height: 134px;
 }
 .contact-form input[type="submit"]{
@@ -2033,5 +2033,10 @@ h1 span{
 	position:absolute;
 	right:4px;
 }
-
+.centeredImage{
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
+}
 /*style end*/
