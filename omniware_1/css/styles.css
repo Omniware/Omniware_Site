@@ -1,3 +1,4 @@
+
 .section-padding { padding: 20px 0 50px }
 .dark-bg { background: #f3f5f8; }
 .light-bg { background-color: #fff; }
@@ -45,7 +46,7 @@ Features
 
 .swag { background: url('../img/plants-bg.jpg') no-repeat ;
      background-attachment: fixed;
-      padding: 50px 0; }
+      padding: 10% 0; }
 .swag h1 { 
 	color: #fff;
 	 font-size: 40px;

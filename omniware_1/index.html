@@ -15,38 +15,45 @@
        <link rel="stylesheet" href="css/slidescreen.css">
 <script type="text/javascript">new WOW().init();</script>
         <link rel="stylesheet" type="text/css" href="css/style2.css" />
-        <script type="text/javascript" src="js/modernizr.custom.js"></script>
-      </head>
+        <script type="text/javascript" src="js/modernizr.custom.js"></script> 
+        <link href="css/header.css" rel="stylesheet">
+<script>
+function init() {
+    window.addEventListener('scroll', function(e){
+        var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+            shrinkOn = 250,
+            header = document.querySelector("header");
+        if (distanceY > shrinkOn) {
+            classie.add(header,"smaller");
+        } else {
+            if (classie.has(header,"smaller")) {
+                classie.remove(header,"smaller");
+            }
+        }
+    });
+}
+window.onload = init();
+
+</script>
+    </head>
       <body>
-
 <!-- Navbar -->
-<nav class="nav nav-pills navbar-fixed-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">
-                <img src="images/logo.png" alt="">
-            </a>
-        </div>
-
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Problems</a></li>
-                <li><a href="#">Our Solutions</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>
+<a name="home"></a>
+<header>
+    <div class="container clearfix">
+        <h1 id="logo">
+          
+        </h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#solutions">Solutions</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </div>
-</nav>
+</header><!-- /header -->
 <!-- Navbar end -->
 <!-- slideshow -->
+
             <div id="da-slider" class="da-slider">
                 <div class="responsive da-slide">
                     <h2>Easy management</h2>
@@ -76,7 +83,7 @@
                     <span class="da-arrows-prev"></span>
                     <span class="da-arrows-next"></span>
                 </nav>
-            </div>
+</div>
 <!-- Slider ends -->
         <section class="intro text-center section-padding" id="intro">
           <div class="container">
@@ -125,8 +132,20 @@
             </div>
           </div>
         </section>
- 
- <div id="offerings" class="offerings">
+
+
+         <section class="swag text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <h1>Omniware<span>Our Vision is to build world class products</span></h1>
+               <!--  <a href="#portfolio" class="down-arrow-btn"><i class="fa fa-chevron-down"></i></a> -->
+              </div>
+            </div>
+          </div>
+        </section>
+<a name="solutions"></a>
+ <div "offerings" class="offerings">
     <div class="container"> 
     <h3>Our Offerings</h3>
             <div class="grids">
@@ -157,9 +176,9 @@
             </div>
          <div class="bootstrap-grids">          
          <div class="col-md-4 camps">
-                <img class="img-responsive" src="images/01.jpg" alt="Retail Store"/>
+                <img src="images/01.jpg" alt="Retail Store"/>
                     <ul class="product_title titlelast">
-                         <li class="s_head"><h3>Retail <br>Stores</h3></li>                          
+                         <li class="s_head"><h3>Retail Stores</h3></li>                          
                      </ul>
         <div class="clearfix"> </div>
         
@@ -169,7 +188,7 @@
         </div>
     </div>
     <div class="col-md-4 camps">
-                <img class="img-responsive" src="images/02.jpg" alt="Hospital" />
+                <img src="images/02.jpg" alt="Hospital" />
                 <ul class="product_title titlelast">
                     <li class="s_head"><h3>Hospitals & Medical Labs</h3>
                                         </li>                    
@@ -181,7 +200,7 @@
         </div>
     </div>
     <div class="col-md-4 camps">
-                <img class="img-responsive" src="images/03.png" alt="Bank"/>
+                <img src="images/03.png" alt="Bank"/>
                         <ul class="product_title titlelast">
                             <li class="s_head"><h3>Financial Companies</h3>
                             </li>  
@@ -264,7 +283,7 @@
     background: url(images/sky_texture1967.jpg);
 ">
        <!--    <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a> -->
-          <div class="container">
+          <div  class="container">
             <div class="row">
               <div class="col-md-12">
                 <h1 style="color: white;">Contact Us</h1>
@@ -372,9 +391,71 @@
 "border-bottom":"2px solid #00ff0c", 
 "padding":"0px"});
         </script>
+<script type="text/javascript">
+( function( window ) {
 
+'use strict';
 
+function classReg( className ) {
+  return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
+}
 
+var hasClass, addClass, removeClass;
+
+if ( 'classList' in document.documentElement ) {
+  hasClass = function( elem, c ) {
+    return elem.classList.contains( c );
+  };
+  addClass = function( elem, c ) {
+    elem.classList.add( c );
+  };
+  removeClass = function( elem, c ) {
+    elem.classList.remove( c );
+  };
+}
+else {
+  hasClass = function( elem, c ) {
+    return classReg( c ).test( elem.className );
+  };
+  addClass = function( elem, c ) {
+    if ( !hasClass( elem, c ) ) {
+      elem.className = elem.className + ' ' + c;
+    }
+  };
+  removeClass = function( elem, c ) {
+    elem.className = elem.className.replace( classReg( c ), ' ' );
+  };
+}
+
+function toggleClass( elem, c ) {
+  var fn = hasClass( elem, c ) ? removeClass : addClass;
+  fn( elem, c );
+}
+
+var classie = {
+  // full names
+  hasClass: hasClass,
+  addClass: addClass,
+  removeClass: removeClass,
+  toggleClass: toggleClass,
+  // short names
+  has: hasClass,
+  add: addClass,
+  remove: removeClass,
+  toggle: toggleClass
+};
+
+// transport
+if ( typeof define === 'function' && define.amd ) {
+  // AMD
+  define( classie );
+} else {
+  // browser global
+  window.classie = classie;
+}
+
+})( window );
+</script>
         
       </body>
     </html>
